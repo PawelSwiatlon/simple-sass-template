@@ -156,6 +156,33 @@ h1 {
   font-weight: 900;
 }
 
+.text-doted {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.text-doted-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-doted-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+.text-doted-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+.text-doted-clamp-4 {
+  -webkit-line-clamp: 4;
+}
+.text-doted-clamp-5 {
+  -webkit-line-clamp: 5;
+}
+.text-doted-clamp-6 {
+  -webkit-line-clamp: 6;
+}
+
 .box {
   display: flex;
   gap: 1rem;

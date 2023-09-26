@@ -24,3 +24,24 @@
     &-700 { font-weight: 700; }
     &-900 { font-weight: 900; }
 }
+.text-doted {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    &-line {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // add to element class .text-doted-clamp-x to work with this class
+    }
+
+    &-clamp {
+        &-2 { -webkit-line-clamp: 2; }
+        &-3 { -webkit-line-clamp: 3; }
+        &-4 { -webkit-line-clamp: 4; }
+        &-5 { -webkit-line-clamp: 5; }
+        &-6 { -webkit-line-clamp: 6; }
+    }
+}
