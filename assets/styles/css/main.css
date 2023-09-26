@@ -93,14 +93,14 @@ h1 {
   transition: color 0.25s cubic-bezier(0.86, 0, 0.07, 1), border 0.25s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-.w-100vh {
-  width: 100vh;
+.w-100vw {
+  width: 100vw;
 }
-.w-50vh {
-  width: 50vh;
+.w-50vw {
+  width: 50vw;
 }
-.w-25vh {
-  width: 25vh;
+.w-25vw {
+  width: 25vw;
 }
 .w-auto {
   width: auto;
