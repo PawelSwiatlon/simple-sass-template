@@ -1166,4 +1166,37 @@ h1 {
   width: 3.125rem;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+.container-full {
+  max-width: 1920px;
+}
+.container-large {
+  max-width: 1655px;
+}
+.container-medium {
+  max-width: 1103px;
+}
+.container-small {
+  max-width: 827px;
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  display: block;
+}
+.btn.link {
+  display: inline;
+}
+.btn.circle {
+  border-radius: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
