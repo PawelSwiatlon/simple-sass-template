@@ -68,3 +68,16 @@
         &-visible { overflow-y: visible; }
     }
 }
+.text {
+    &-center {
+        text-align: center;
+    }
+
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+}

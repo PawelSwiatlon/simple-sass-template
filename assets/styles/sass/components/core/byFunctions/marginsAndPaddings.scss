@@ -1,59 +1,99 @@
 @for $i from 1 through 20 {
-    .mb,
-    .pb { 
+    .mb { 
         &-#{$i} {
             margin-bottom: $i + px;
         }
     }
     
-    .mt
-    .pt { 
+    .pb { 
+        &-#{$i} {
+            padding-bottom: $i + px;
+        }
+    }
+    
+    .mt { 
         &-#{$i} {
             margin-top: $i + px;
         }
     }
     
-    .ml,
-    .pl { 
+    .pt { 
+        &-#{$i} {
+            padding-top: $i + px;
+        }
+    }
+    
+    .ml { 
         &-#{$i} {
             margin-left: $i + px;
         }
     }
     
-    .mr,
-    .pr {
+    .pl { 
+        &-#{$i} {
+            padding-left: $i + px;
+        }
+    }
+    
+    .mr {
         &-#{$i} {
             margin-right: $i + px;
+        }
+    }
+    
+    .pr {
+        &-#{$i} {
+            padding-right: $i + px;
         }
     }
 }
 @for $j from 21 through 100 {
     @if($j % 5 == 0) {
-        .mb,
-        .pb { 
+        .mb { 
             &-#{$j} {
                 margin-bottom: $j + px;
             }
         }
+        
+        .pb { 
+            &-#{$j} {
+                padding-bottom: $j + px;
+            }
+        }
 
-        .mt
-        .pt { 
+        .mt { 
             &-#{$j} {
                 margin-top: $j + px;
             }
         }
 
-        .ml,
-        .pl { 
+        .pt { 
+            &-#{$j} {
+                padding-top: $j + px;
+            }
+        }
+
+        .ml { 
             &-#{$j} {
                 margin-left: $j + px;
             }
         }
+        
+        .pl { 
+            &-#{$j} {
+                padding-left: $j + px;
+            }
+        }
 
-        .mr,
-        .pr {
+        .mr {
             &-#{$j} {
                 margin-right: $j + px;
+            }
+        }
+        
+        .pr {
+            &-#{$j} {
+                padding-right: $j + px;
             }
         }
     }
