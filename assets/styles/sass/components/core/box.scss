@@ -7,15 +7,15 @@
         flex-direction: column;
 
         &-reverse {
-            flex-direction: column-reverse;   
+            flex-direction: column-reverse;
         }
     }
 
     &.row {
         flex-direction: row;
-             
+
         &-reverse {
-            flex-direction: row-reverse;   
+            flex-direction: row-reverse;
         }
     }
 
